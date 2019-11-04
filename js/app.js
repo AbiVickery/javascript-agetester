@@ -21,7 +21,7 @@ function ageDetect() {
         console.log('not old enough');
         document.write('What is a person of your age doing here?');
     }
-    else ('age' <= 18) {
+    else ('age' <= 18); {
         console.log('old enough');
         document.write("Yes, hello!");
     }

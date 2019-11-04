@@ -14,4 +14,17 @@ document.write('hello world');
 
 console.log("What is your age?");
 document.write("Please enter your age.");
-Input()
+
+function ageDetect() {
+    let age = 1;
+    if ('age' <= 5) {
+        console.log('not old enough');
+        document.write('What is a person of your age doing here?');
+    }
+    else ('age' <= 18) {
+        console.log('old enough');
+        document.write("Yes, hello!");
+    }
+};
+
+// Input()

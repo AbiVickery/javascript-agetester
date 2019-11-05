@@ -19,11 +19,11 @@ function ageDetect() {
     let age = 1;
     if ('age' <= 5) {
         console.log('not old enough');
-        document.write('What is a person of your age doing here?');
+        document.write('Smudge the cat frowns upon you!');
     }
     else ('age' <= 18); {
         console.log('old enough');
-        document.write("Yes, hello!");
+        document.write("Yes, Meow- I mean hello!");
     }
 };
 
